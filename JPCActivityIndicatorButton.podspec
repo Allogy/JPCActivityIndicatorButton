@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "JPCActivityIndicatorButton"
-  s.version      = "3.2.0"
+  s.version      = "3.3.0"
   s.summary      = "An implementation of the progress control used in the App Store app with styling inspired by Google's material design."
 
   s.description  = <<-DESC
@@ -17,7 +17,8 @@ Pod::Spec.new do |s|
   s.author       = 'Jon Chmura'
   s.social_media_url   = "http://twitter.com/jpchmura"
   s.platform     = :ios, "9.0"
-  s.source       = { :git => "https://github.com/bonebox/JPCActivityIndicatorButton.git", :tag => s.version.to_s }
+  s.swift_version = '4.2'
+  s.source       = { :git => "https://github.com/Allogy/JPCActivityIndicatorButton.git", :tag => s.version.to_s }
   s.source_files  = "Source/*.swift"
 
 end
